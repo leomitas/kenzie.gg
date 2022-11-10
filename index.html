@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src\assets\Riot_Games_logo_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/pages/home/index.css">
+    <link rel="stylesheet" href="./src\styles\globalStyles.css">
+    <title>Kenzie.GG</title>
+</head>
+
+<body>
+    <main class="main">
+        <section class="container">
+            <div class="search">
+                <h2>Buscar usuário</h2>
+                <form class="form">
+                    <div class="form-username">
+                        <input type="text" name="username" placeholder="Nome do usuário" class="input">
+                        <p class="display-none color-red" id="error">Usuário não encontrado</p>
+                    </div>
+                    <button class="button" type="submit">
+                        <p class="button-p">Pesquisar</p>
+                    </button>
+                </form>
+            </div>
+            <!-- <div class="rank">
+                <h2>Rank dos usuários visitados</h2>
+                <ul class="users" id="users">
+                    <li class="user" id="noProfile">
+                        <img src="./src\assets\Riot_Games_logo_icon.png" alt="" class="img-2">
+                        <div>
+                            <h3>Nenhum perfil no histórico</h3>
+                        </div>
+                    </li>
+                </ul>
+            </div> -->
+            </div>
+        </section>
+    </main>
+    <div class="main">
+
+        <section class="container">
+            <h2 class="title">Rotação semanal</h2>
+            <ul class="champs" id="champs"></ul>
+        </section>
+
+        <!-- <section class="container">
+            <h2 class="title">Rotação semanal para jogadores novatos até o nível 10</h2>
+            <ul class="champs" id="champsLowLevel"></ul>
+        </section> -->
+    </div>
+    <script src="./src/pages/home/index.js" type="module"></script>
+</body>
+
+</html>

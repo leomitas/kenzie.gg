@@ -1,0 +1,119 @@
+header {
+    background-color: var(--color-grey-2);
+    color: white;
+    width: 100vw;
+    padding: 16px;
+}
+
+.icon-container {
+    gap: 14px;
+}
+
+.icon-container .icon {
+    width: 32px;
+    height: 32px;
+}
+
+nav {
+    gap: 16px;
+}
+
+.home {
+    background-color: var(--fixed-white);
+    padding: 2px;
+    border-radius: 8px;
+    border: none;
+}
+
+.home img {
+    width: 24px;
+    height: 24px;    
+}
+
+body {
+    background-color: var(--color-brand-1);
+}
+
+main {
+    height: 100%;
+    background-color: var(--color-grey-2);
+}
+
+.leaderboard .card {
+    display: flex;
+    color: var(--color-grey-7);
+    width: 90%;
+    margin: 0 auto;
+    padding: 24px 8px;
+    border-radius: 8px;
+    border-bottom: 6px solid var(--color-brand-1);
+    gap: 25px;
+}
+
+.profile-icon {
+    width: 70px;
+    height: 70px;
+}
+
+.profile-icon-container {
+    border: 2px solid var(--color-grey-1)
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 1200px;
+        margin: 0 auto
+    }
+}
+
+.mastery-profile {
+    width: 48px;
+    height: 48px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    border: 2px solid var(--color-grey-4);
+}
+
+.mastery-profile img {
+    width: 65px;
+    height: 65px;
+    transform: rotate(-45deg) translate(1px, -12px);
+}
+
+.access-profile {
+    background-color: var(--color-brand-1);
+    border: transparent;
+    color: var(--fixed-white);
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.home:hover {
+    background-color: var(--color-grey-4);
+    cursor: pointer;
+}
+
+.access-profile:hover {
+    background-color: var(--color-brand-2);
+    cursor: pointer;
+}
+
+.border-card {
+    width: 80%;
+    margin: 0 auto;
+    height: 2px;
+    border-bottom: 2px solid var(--color-grey-4);
+}
+
+.gap-1 {
+    gap: 40px;
+}
+
+.gap-2 {
+    gap: 10px;
+}

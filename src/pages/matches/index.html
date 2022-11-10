@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/positioning.css">
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="../../assets/Riot_Games_logo_icon.png">
+    <title>Kenzie.gg - User</title>
+</head>
+<body>
+    <header class="flex align-center container justify-between">
+        <div class="icon-container flex align-center">
+            <img class="icon" src="../../assets/Riot_Games_logo_icon.png" alt="">
+            <h1>Kenzie.GG</h1>
+        </div>
+        <nav class="flex align-center">
+            <a href="">Histórico</a>
+            <button class="home"><img src="../../assets/home.png" alt=""></button>
+        </nav>
+    </header>
+    <main class="flex flex-column align-center">
+        <img class="background-user-img container">
+            <div class="background-user container">
+                <div class="separator flex">
+                    <div class="user_stack">
+                        <img src="../../assets/league-of-legends-poro-thresh-wallpaper-preview.jpg" alt="" class="user_icon">
+                        <ul class="user_info">
+                            <li class="user_name"></li>
+                            <li class="user_level justify-between"></li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="mastery-container flex justify-around"></ul>
+            </div>
+        </img>
+        <h3 class="matches-word flex">Partidas Recentes</h3> 
+        <section class="historic container">
+            <ul class="match-list" id="matchList"></ul>
+        </section>
+    </main>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>

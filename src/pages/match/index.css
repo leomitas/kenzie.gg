@@ -1,0 +1,146 @@
+header {
+    background-color: var(--color-grey-2);
+    color: white;
+    width: 100vw;
+    padding: 16px;
+}
+
+.gap {
+    gap: 10px;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.icon-container {
+    gap: 14px;
+}
+
+.icon-container .icon {
+    width: 32px;
+    height: 32px;
+}
+
+nav {
+    gap: 16px;
+}
+
+.home {
+    background-color: var(--fixed-white);
+    padding: 2px;
+    border-radius: 8px;
+    border: none;
+}
+
+.home img {
+    width: 24px;
+    height: 24px;    
+}
+
+body {
+    background-color: var(--color-brand-1);
+}
+
+main {
+    height: 100%;
+    background-color: var(--color-grey-2);
+}
+
+.leaderboard .card {
+    display: flex;
+    color: var(--color-grey-7);
+    width: 90%;
+    margin: 0 auto;
+    padding: 24px 8px;
+    border-radius: 8px;
+    border-bottom: 6px solid var(--color-brand-1);
+    gap: 25px;
+}
+
+.profile-icon {
+    width: 70px;
+    height: 70px;
+}
+
+.profile-icon-container {
+    border: 2px solid var(--color-grey-1)
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto
+    }
+    main {
+        font-size: var(--font-size-3);
+        margin-top: 8px;
+        width: 1200px;
+        margin: 0 auto;
+    }  
+    section {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+}
+
+.sprite-champion {
+    width: 48px;
+}
+
+ul {
+    gap: 20px;
+    background-color: var(--color-grey-5);
+    padding: 16px;
+    border-radius: 8px;
+}
+
+main {
+    margin-top: 4px;
+    padding: 16px;
+}
+
+.red-team {
+    background-color: #59343b;
+}
+
+.blue-team {
+    background-color: #28344e;
+}
+
+.red-team li {
+    border-bottom: 1px solid #e84057;
+}
+
+.blue-team li {
+    border-bottom: 1px solid #5383e8;
+}
+
+.red-team h2 {
+    color: #e84057;
+}
+
+.blue-team h2 {
+    color: #5383e8;
+}
+
+li {
+    list-style: none;
+    color: var(--color-grey-7);
+    gap: 10px;
+    padding: 10px;
+}
+
+.margin-top-1 {
+    margin-top: 32px;
+}
